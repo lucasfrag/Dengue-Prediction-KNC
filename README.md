@@ -113,5 +113,5 @@ Isso significa que o modelo acertou 75% das previsões no conjunto de teste.
 ## Conclusão
 Este projeto demonstra como aplicar o modelo KNeighborsClassifier para diagnosticar dengue com base em sintomas registrados em uma base de dados. A acurácia obtida foi de 75%, o que indica um desempenho razoável para este conjunto de dados simples.
 
-### Desenvolvido por [Lucas Fraga](https://github.com/lucasfrag)
+
 
