@@ -1,6 +1,6 @@
-# Previsão de casos de dengue com IA
+# Previsão de casos de dengue com KNN
 
-Durante minha Pós-Graduação em Inteligência Artificial, fui desafiado a desenvolver uma solução para prever casos de dengue utilizando o algoritmo KNeighborsClassifier. O projeto parecia complicado no início, mas com muita pesquisa e dedicação, consegui implementar uma solução eficaz!
+Durante minha Pós-Graduação em Inteligência Artificial, fui desafiado a desenvolver uma solução para prever casos de dengue utilizando o algoritmo K-Nearest Neighbors. O projeto parecia complicado no início, mas com muita pesquisa e dedicação, consegui implementar uma solução eficaz!
 
 ### 💻 O que foi feito?
 
@@ -26,9 +26,9 @@ A previsão de doenças como a dengue é crucial para a saúde pública, e aplic
 1) Para realizarmos um projeto de mineração de dados, o primeiro é selecionar a base de dados e explorar dos dados desta base, no intuito de obtermos um entendimento inicial sobre o problema. Diante disto, utilize a biblioteca Pandas do Python para criar um <i>Data Frame</i> a partir da base de dados da dengue disponibilizada e exiba os 5 primeiros elementos deste conjunto usando o comando <i>head()</i>.
 
 2) O segundo passo de um projeto de mineração de dados é o da transformação dos dados para posterior utilização no modelo de aprendizagem. 
-Para o problema de diagnóstico da dengue será utilizado o modelo <b>KNeighborsClassifier</b>. Para usar este modelo, transforme os registros que possuem os valores ‘sim’ e ‘nao’ da base de dados da dengue em binários 1 e 0, respectivamente. Exiba os registros atualizados utilizando o comando head() da biblioteca Pandas.
+Para o problema de diagnóstico da dengue será utilizado o modelo <b>K-Nearest Neighbors</b>. Para usar este modelo, transforme os registros que possuem os valores ‘sim’ e ‘nao’ da base de dados da dengue em binários 1 e 0, respectivamente. Exiba os registros atualizados utilizando o comando head() da biblioteca Pandas.
 
-3) Logo após a transformação, tem-se, finalmente, o passo de mineração de dados. Para esta etapa, divida a base de dados da dengue em treinamento e teste. Logo após, selecione o algoritmo <i>KNeighborsClassifier()</i>, utilize o comando fit para treinar o modelo e o comando predict para aplicar o método de predição. 
+3) Logo após a transformação, tem-se, finalmente, o passo de mineração de dados. Para esta etapa, divida a base de dados da dengue em treinamento e teste. Logo após, selecione o algoritmo <i>K-Nearest Neighbors()</i>, utilize o comando fit para treinar o modelo e o comando predict para aplicar o método de predição. 
 Apresente a matriz de confusão e a acurácia do modelo.  
 
 
@@ -48,7 +48,7 @@ Após a transformação, os dados foram divididos em conjuntos de treinamento e 
 
 ### 3. Treinamento do Modelo
 
-O modelo `KNeighborsClassifier` foi treinado usando os dados de treinamento. Este algoritmo classifica novos exemplos com base nas classes mais frequentes entre os vizinhos mais próximos.
+O modelo `K-Nearest Neighbors` foi treinado usando os dados de treinamento. Este algoritmo classifica novos exemplos com base nas classes mais frequentes entre os vizinhos mais próximos.
 
 ### 4. Avaliação do Modelo
 
@@ -111,7 +111,7 @@ Isso significa que o modelo acertou 75% das previsões no conjunto de teste.
 - scikit-learn
 
 ## Conclusão
-Este projeto demonstra como aplicar o modelo KNeighborsClassifier para diagnosticar dengue com base em sintomas registrados em uma base de dados. A acurácia obtida foi de 75%, o que indica um desempenho razoável para este conjunto de dados simples.
+Este projeto demonstra como aplicar o classificador K-Nearest Neighbors para diagnosticar dengue com base em sintomas registrados em uma base de dados. A acurácia obtida foi de 75%, o que indica um desempenho razoável para este conjunto de dados simples.
 
 
 
